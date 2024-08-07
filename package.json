@@ -1,0 +1,35 @@
+{
+  "name": "@yungezeit/tsconfig",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Personal tsconfig to extend from",
+  "author": "Charles Gruenais",
+  "license": "MIT",
+  "homepage": "https://github.com/yungezeit/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yungezeit/tsconfig.git",
+    "directory": "presets/typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/yungezeit/tsconfig/issues"
+  },
+  "keywords": ["eslint", "eslint-config", "flat", "yungezeit", "typescript"],
+  "main": "tsconfig.json",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "biome format . --fix",
+    "changeset:release": "changeset publish",
+    "changeset:version": "changeset version && pnpm install --lockfile-only"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.5",
+    "@yungezeit/eslint-base": "^0.0.3",
+    "eslint": "^9.8.0"
+  }
+}

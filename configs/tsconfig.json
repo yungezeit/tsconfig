@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // Types should be emitted another way (tsup, vite-plugin-dts, etc).
+    "noEmit": true,
+
+    // Base module settings.
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+
+    // Be strict by default.
+    "noImplicitThis": true,
+    "strict": true,
+
+    // Handle JS files by default.
+    "allowJs": true,
+    "checkJs": true,
+
+    // Recommendations.
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  }
+}
