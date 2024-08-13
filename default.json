@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+
   "compilerOptions": {
     // Types should be emitted another way (tsup, vite-plugin-dts, etc).
     "noEmit": true,

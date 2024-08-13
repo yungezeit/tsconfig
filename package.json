@@ -14,17 +14,8 @@
   "bugs": {
     "url": "https://github.com/yungezeit/tsconfig/issues"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "flat",
-    "yungezeit",
-    "typescript"
-  ],
-  "main": "configs/tsconfig.json",
-  "files": [
-    "configs"
-  ],
+  "keywords": ["eslint", "eslint-config", "flat", "yungezeit", "typescript"],
+  "files": ["default.json", "dom.json"],
   "scripts": {
     "lint": "eslint . --fix",
     "format": "biome format . --fix",

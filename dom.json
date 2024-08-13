@@ -1,5 +1,7 @@
 {
-  "extends": "./tsconfig.json",
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "./default.json",
   "compilerOptions": {
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "types": []
