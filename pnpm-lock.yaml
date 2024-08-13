@@ -16,8 +16,8 @@ devDependencies:
     specifier: ^2.27.5
     version: 2.27.7
   '@yungezeit/eslint-base':
-    specifier: ^0.0.8
-    version: 0.0.8(eslint@9.9.0)
+    specifier: ^0.0.9
+    version: 0.0.9(eslint@9.9.0)
   eslint:
     specifier: ^9.9.0
     version: 9.9.0
@@ -374,11 +374,6 @@ packages:
       - supports-color
     dev: true
 
-  /@eslint/js@9.8.0:
-    resolution: {integrity: sha512-MfluB7EUfxXtv3i/++oh89uzAr4PDI4nn201hsp+qaXqsjAWzinlZEHEfPgAX4doIlKvPG/i0A9dpKxOLII8yA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    dev: true
-
   /@eslint/js@9.9.0:
     resolution: {integrity: sha512-hhetes6ZHP3BlXLxmd8K2SNgkhNSi+UcecbnwWKwpP7kyi/uC75DJ1lOOBO3xrC4jyojtGE3YxKZPHfk4yrgug==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -458,12 +453,12 @@ packages:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
     dev: true
 
-  /@yungezeit/eslint-base@0.0.8(eslint@9.9.0):
-    resolution: {integrity: sha512-jsWXVN6ctdkuofzT/g3NpNGbUDDV9oq+ydxgTuSC533IEYl1IlBhIzgZhoTKCRiYKRnBn4u8DbbSwVmUgi2V6A==}
+  /@yungezeit/eslint-base@0.0.9(eslint@9.9.0):
+    resolution: {integrity: sha512-j/ZEiREF+AMPZhtu6lu63lw1bv5ClTSWS25s6ngwHCx4DNyVJ7rzVT+wWs0MtmG++DxdQAUt+BJvidVXHyE5LA==}
     peerDependencies:
       eslint: ^9.0.0
     dependencies:
-      '@eslint/js': 9.8.0
+      '@eslint/js': 9.9.0
       eslint: 9.9.0
       eslint-plugin-jsonc: 2.16.0(eslint@9.9.0)
       eslint-plugin-markdown: 5.1.0(eslint@9.9.0)

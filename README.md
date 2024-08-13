@@ -37,7 +37,7 @@ You may extend from the following provided tsconfigs:
 
 ## Usage
 
-You should make sure to specify the `includes` field in your `tsconfig.json`:
+You should make sure to specify the `include` field in your `tsconfig.json`:
 
 ```json
 {
@@ -48,16 +48,18 @@ You should make sure to specify the `includes` field in your `tsconfig.json`:
 
 Usually, one would have secondary `tsconfig` files dedicated to node tooling that are used to match TypeScript files which are not part of the project's actual code. Most of the time, such file are called `tsconfig.{xxx}.json` and should be referenced from the main `tsconfig.json` file:
 
+**`tsconfig.json`**
 ```json
-{ // tsconfig.json
+{
   "extends": "@yungezeit/tsconfig/default.json",
   "references": [{ "path": "./tsconfig.node.json" }],
   "include": ["src/**/*"]
 }
 ```
 
+**`tsconfig.node.json`**
 ```json
-{ // tsconfig.node.json
+{
   "extends": "./tsconfig.json",
   "include": ["tsup.config.ts", "vitest.config.ts"],
   "compilerOptions": {
