@@ -1,7 +1,7 @@
 {
   "name": "@yungezeit/tsconfig",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Personal tsconfig to extend from",
   "author": "Charles Gruenais",
   "license": "MIT",
